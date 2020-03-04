@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHS</title>
+
+    <!-- CDN ChartJS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body>
+
+    <h1>Movimento harmonico simples</h1>
+    
+    <label htmlFor="freq">
+        Frequência (Hz)
+    </label>
+    <input 
+        type="text" 
+        name="freq"
+        required
+        value=0
+        id="freq"
+    />
+
+    <button id="btnGerar">Gerar o MHS</button>
+
+    <canvas id="myChart"></canvas>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
